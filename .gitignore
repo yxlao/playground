@@ -1,3 +1,6 @@
+.vscode/
+build/
+
 .ipynb_checkpoints/
 
 # Byte-compiled / optimized / DLL files
