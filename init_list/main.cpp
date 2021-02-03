@@ -30,6 +30,7 @@ void constructor(
 }
 
 int main() {
-    constructor({});
+    constructor({});        // 3D
+    constructor({{}, {}});  // 3D
     return 0;
 }
