@@ -15,6 +15,10 @@ def visualize(points):
     ax = Axes3D(fig)
 
     ax.scatter(xs, ys, zs)
+    ax.set_xlim3d(-1, 1)
+    ax.set_ylim3d(-1, 1)
+    ax.set_zlim3d(-1, 1)
+    ax.set_aspect('equal')
     pyplot.show()
 
 
